@@ -38,6 +38,7 @@ Create Order EndPoint:
 ---------------------------------------------------------
 
 Cancel Order EndPoint
+
 	Method: PUT
 	EndPoint: http://localhost:3000/api/order/<orderId>
 	Header: {
@@ -45,7 +46,7 @@ Cancel Order EndPoint
 		"Authorization":"Bearer 5c9884b79f0ba00f0ae9395c"
 	}
 
-  body: {
+  	body: {
 		"orderState": "cancelled"
 	}
 
@@ -53,6 +54,7 @@ Cancel Order EndPoint
 ---------------------------------------------------------
 
 Check Order Status EndPoint
+
 	Method: GET
 	EndPoint: http://localhost:3000/api/order/<orderId>
 	Header: {
