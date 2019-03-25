@@ -23,5 +23,6 @@ Payment API EndPoint :
 
 Note :
   This is for creating Mongo Database and required database user.
+    
     1. use payment_solutions
     2. db.createUser({ user: "tech33", pwd: "PM47K1WAz8z28", roles: [ { role: "readWrite", db: "payment_solutions" } ] })
