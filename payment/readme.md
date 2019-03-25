@@ -9,12 +9,12 @@ Payment API EndPoint :
 	Method: POST
 	EndPoint: http://localhost:3080/api/payment/
 
-  Header: {
+  	Header: {
 		"Content-Type":"application/json",
 		"Authorization":"Bearer 5c9884b79f0ba00f0ae9395c"
 	}
 
-  body: {
+  	body: {
 		"order": "5c98dc6c327fa63b77054268",
 		"mode": "cash",
 		"amount": 338
